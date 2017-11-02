@@ -1,0 +1,176 @@
+
+
+body {
+	margin: 0;
+}
+
+#containernav {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: white;
+	margin: 0;
+}
+
+header:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	/*display: inline-block;*/
+	padding: 10px 30px 10px 0;
+}
+
+.logs {
+	padding: 10px 0 10px 30px;
+}
+
+#logs {
+	float: right;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Roboto, sans-serif;
+	font-size: 0.8rem;
+	color: #646464;
+}
+
+/*SLIDER (not slider yet)*/
+
+.imagen {
+	width: 100%;
+	height: 420px;
+}
+
+/*#containerslider {
+	width: 90%;
+	margin: 0 auto;
+}*/
+
+#containerslider h2 {
+	z-index: 10000;
+	position: absolute;
+	font-family: Robot, sans-serif;
+	font-size: 4.5rem;
+	color: white;
+	padding: 4.5rem 0 0 4rem;
+	letter-spacing: 6px;
+}
+
+#containerslider p {
+	z-index: 10000;
+	position: absolute;
+	font-family: Robot, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+	width: 60%;
+	color: white;
+	padding: 12.8rem 0 0 4rem;
+	line-height: 1.4;
+	letter-spacing: 2px;
+}
+
+#containerslider button {
+	z-index: 10000;
+	position: absolute;
+	font-family: Roboto, sans-serif;
+	font-size: 0.9rem;
+	margin: 20rem 0 0 4rem;
+	padding: 0.8rem 3rem;
+	color: white;
+	background-color: #42aade;
+	border: none;
+	border-radius: 100px;
+}
+
+#containerslider button a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Content 3 cols*/
+
+.heading h1 {
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+	font-size: 4rem;
+	letter-spacing: 8px;
+	text-align: center;
+	color: #646464;
+	padding-top: 8rem;
+	padding-bottom: 1rem;
+	margin: 0;
+}
+
+.heading hr {
+	width: 20%;
+}
+
+.heading p {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 1rem;
+	text-align: center;
+	color: #646464;
+	font-family: Roboto, sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+
+#containercontent {
+	width: 80%;
+	margin: 8rem auto;
+	padding-bottom: 10rem;
+}
+
+.content {
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+	padding: 1.6%;
+}
+
+.content p {
+	text-align: center;
+	padding: 2rem 1.5rem;
+	font-family: Roboto, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	color: #646464;
+}
+
+.content img {
+	width: 60%;
+	display: block;
+	border-radius: 50px;
+	margin: auto;
+}
+
+.buttoncontent {
+	margin: auto;
+	text-align: center;
+}
+
+.buttoncontent button {
+	background-color: #42aade;
+	font-family: Roboto, sans-serif;
+	font-size: 1rem;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	padding: 0.5rem 2rem;
+	margin-bottom: 10rem;
+}

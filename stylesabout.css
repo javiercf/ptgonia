@@ -1,0 +1,46 @@
+
+body {
+	margin: 0;
+}
+
+#containernav {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: white;
+	margin: 0;
+}
+
+header:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	padding: 10px 30px 10px 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: Roboto, Sans-serif;
+	color: #646464;
+	font-size: 0.8rem;
+}
+
+#logs {
+	float: right;
+}
+
+.logs {
+	padding: 10px 0 10px 30px;
+}
